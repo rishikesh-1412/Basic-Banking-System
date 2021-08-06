@@ -1,0 +1,228 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.active-class{
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-left{
+    margin-left: auto; 
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 25px !important;
+}
+
+.balance-field {
+    color: red;  
+}
+
+.card2-div {
+  width: 90%;
+  /* margin-left: 25px; */
+  /* margin-right: 5px; */
+  margin-top: 20px;
+  float: left;
+}
+
+.proImg {
+  width:60%;
+  height: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+  /* border-radius: 50%; */
+}
+
+.exampleInputText{
+    width: 400px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(198, 193, 193);
+}
+.exampleInputText:hover{
+    border-bottom: 2px solid rgb(13, 118, 46);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+table {
+    margin: 50px 50px 0 50px;
+}
+
+th {
+    width: 500px;
+    font-size: 20px;
+    background: rgb(206, 209, 209);
+    color: #000;
+    padding: 2px 6px;
+    border-collapse: separate;
+    border: 2px solid #000;
+    /* text-align: center; */
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px solid #DDD;
+    background-color: rgb(210, 245, 245);
+    border: 1px solid #000;
+    border-collapse: separate;
+}
+
+tr {
+    border-bottom: 1px solid black !important;
+}
+
+.acc-one {
+    width: 100%;
+}
+row{
+    width: 100%;
+}
+
+.contact-head-div {
+  width:100%;
+  background-color: #fff;
+  height:100px;
+  margin-top: 20px;
+  
+  /* padding-top: 10%; */
+}
+
+.contact-first-div {
+  float: left;
+  margin-left: 10%;
+  width:80%;
+  height:70px;
+  background-color: #fff;
+  margin-top: 15px;
+  border-radius: 10px;
+  -moz-box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.6);
+  -webkit-box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.6);
+  box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.6);
+}
+
+.contact-second-div {
+  float: left;
+  margin-left: 10%;
+  width:80%;
+  height:70px;
+  background-color: #fff;
+  margin-top: 15px;
+  -moz-box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.6);
+  -webkit-box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.6);
+  box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.6);
+  border-radius: 10px;
+}
+
+.contact-third-div {
+  float: left;
+  margin-left: 10%;
+  width:80%;
+  height:70px;
+  background-color: #fff;
+  margin-top: 15px;
+  -moz-box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.6);
+  -webkit-box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.6);
+  box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.6);
+  border-radius: 10px;
+}
+
+.contact-icons{
+  color: skyblue;
+  float: left;
+  width: 20%;
+  padding-left: 7%;
+  padding-top: 20px;
+}
+
+.inContact-div {
+  margin-top: 10px;
+}
+
+.contact-block {
+  width:900px;
+  height:400px;
+  background-color: #fff;
+  margin:auto;
+  margin-top: 50px;
+  /* padding-left: 5%; */
+  padding-top: 50px;
+  /* padding-right: 5%; */
+  border-radius: 20px;
+  -moz-box-shadow: 15px 15px 15px rgba(8, 8, 8, 0.6);
+  -webkit-box-shadow: 15px 15px 15px rgba(10, 10, 10, 0.6);
+  box-shadow: 5px 5px 15px rgba(10, 10, 10, 0.6);
+}
+
+.contactUs {
+  margin-left: 10%;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.contact-data-div {
+  width:80%;
+  float: left;
+  height: 40px;
+  /* outline: none; */
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  /* margin-right: 5px; */
+  padding-left: 10px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+
+.contact-message {
+  margin-left: 10%;
+  width: 80%;
+  height: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  resize: none;
+}
+
+.contact-main{
+        margin-top: 20px;
+}
+
+.error-div {
+  text-align: center;
+  content: "404";
+}
+
+.error-div p {
+  font-size: 300px;
+}
+
+.error-div button {
+  background-color: rgb(20, 152, 240);
+  outline: none;
+  border: none;
+  height: 40px;
+  width:200px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.home {
+  width:100%;
+  height: 92vh; 
+  background-color: #000;
+  color: #fff;
+}
+
+.homeBtn {
+  font-size: 25px;
+}
